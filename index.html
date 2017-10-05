@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    </head>
+<body>
+         <a-scene>
+            <a-plane position="0 0 0" rotation="-90 0 0" height="40" width="40" color="lightblue"></a-plane>
+            <a-sky color= #f9c7c5></a-sky>
+            <a-box position="-5 2 -3" width="1" height="1" 
+            depth="1" color="rgb(64, 185, 237)"></a-box>
+            
+            <a-box position="-3 3 -5" width="1" height="1" 
+            depth="1" color= #e5ffb2 >
+                <a-animation 
+                    attribute= "position"
+                    from= "-3 3 -5"
+                    to="7 3 -9"
+                    repeat= "indefinite"
+                    direction="alternate" >
+                </a-animation>
+            </a-box>
+            
+            
+             <a-box position="3 6 4" width="1" height="1" 
+            depth="1" color=#ad97fc>
+                 <a-animation 
+                    attribute= "position"
+                    from= "3 3 4"
+                    to="3 3 -9"
+                    repeat= "indefinite"
+                    direction="alternate" >
+                </a-animation>
+             </a-box>
+            
+             <a-box position="7 2 -3" width="1" height="1" 
+            depth="1" color= #97fcab>
+                 <a-animation 
+                    attribute= "position"
+                    from= "-10 5 -5"
+                    to="10 5 -5"
+                    repeat= "indefinite"
+                    direction="alternate" >
+                </a-animation>
+             </a-box>
+            
+             <a-box position="11 5 -3" width="1" height="1" 
+            depth="1" color="rgb(64, 185, 237)"></a-box>
+            
+             <a-box position="15 2 -3" width="1" height="1" 
+            depth="1" color= #f7e694></a-box>
+            
+             <a-sphere position="19 2 -4" radius="1" color=#f37cf9>
+                 <a-animation 
+                    attribute= "position"
+                    from= "19 -30 4"
+                    to="19 30 -9"
+                    repeat= "indefinite"
+                    direction="alternate" >
+                </a-animation>
+             </a-sphere>
+
+        </a-scene>
+
+
+</body>
+</html>
+
+
+            <a-sphere position="-1 2 -4" radius="1" color="lightblue"></a-sphere>
+            <a-box position="1 2 -3" width="1" height="1" 
+            depth="1" color="pink"></a-box>
